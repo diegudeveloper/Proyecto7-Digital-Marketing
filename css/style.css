@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    max-height: 600px;
+    background-image: url(/img/Banner/banner5.jpg);
+    background-color: rgb(90, 90, 90);
+    background-blend-mode: soft-light;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: polygon(50% 0%, 100% 0, 100% 85%, 50% 95%, 0% 85%, 0 0);
+}
+
+header img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    max-height: 600px;
+}
+
+header input {
+    display: none;
+}
+
+header .container  .container_all .menu {
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #c2c2c2;
+    transform: translateX(100%);
+    
+}
+
+header .container  .container_all .menu ul {
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+    
+}
+
+header .container  .container_all .menu ul li {
+    width: 80%;
+    height: auto;
+    list-style: none;
+    text-align: center;
+    line-height: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 5px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    
+}
+
+header .container  .container_all .menu ul a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
