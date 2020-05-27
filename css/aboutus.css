@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.aboutus {
+    width: 100%;
+    height: auto;
+}
+
+.aboutus .container_all {
+    width: 100%;
+    height: auto;
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.aboutus .container_all .lefth {
+    width: 100%;
+    height: auto;
+}
+
+.aboutus .container_all .lefth .firma {
+    display: none;
+}
+
+.aboutus .container_all .lefth .textaboutus {
+    width: 80%;
+    height: auto;
+    background-color: rgba(204, 204, 204, 0.205);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 10px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.aboutus .container_all .lefth .textaboutus h2 {
+    width: 100%;
+    font-family: serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 3px;
+    color: #000;
+    padding-bottom: 10px;
+    line-height: 25px;
+}
+
+.aboutus .container_all .lefth .textaboutus p {
+    font-family: serif;
+    letter-spacing: 1.5px;
+    font-style: oblique;
+    line-height: 25px;
+    font-size: 16px;
+}
