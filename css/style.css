@@ -65,7 +65,7 @@ header .container  .container_all .menu {
     background-color: #c2c2c2;
     transform: translateX(100%);
     transition: all 1s ease-in-out;
-    position: absolute;
+    /*position: absolute;*/
 }
 
 header .container  .container_all .menu ul {

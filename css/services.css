@@ -9,11 +9,11 @@
     height: auto;
     background-image: url(../img/Services/service2.jpg);
     background-color: rgb(60, 60, 60);
-    /*background-size: 100% ;*/
     background-blend-mode: soft-light;
     background-position: center;
     background-repeat: no-repeat;
-    /*object-fit: cover;*/
+    margin-bottom: 80px;
+
 }
 
 .services .container_all {
