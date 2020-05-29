@@ -4,11 +4,10 @@
     box-sizing: border-box;
 }
 
-
-
 .aboutus {
     width: 100%;
     height: auto;
+    margin-bottom: 80px;
 }
 
 .aboutus .container_all {
@@ -22,6 +21,7 @@
 .aboutus .container_all .lefth {
     width: 100%;
     height: auto;
+    margin-bottom: 50px;
 }
 
 .aboutus .container_all .lefth .firma {
@@ -37,6 +37,7 @@
     padding: 20px 10px;
     text-align: center;
     letter-spacing: 3px;
+    margin-bottom: 70px;
 }
 
 .aboutus .container_all .lefth .textaboutus h2 {
@@ -57,4 +58,42 @@
     font-style: oblique;
     line-height: 25px;
     font-size: 16px;
+}
+
+.aboutus .container_all .lefth .imgaboutus {
+    width: 90%;
+    height: auto;
+}
+
+.aboutus .container_all .lefth .imgaboutus img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.aboutus .container_all .rigth {
+    width: 100%;
+    height: auto;
+}
+
+.aboutus .container_all .rigth .imgrigth {
+    display: none;
+}
+
+.aboutus .container_all .rigth .discover {
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0,0,0,0.8);
+    padding: 20px 40px;
+    text-align: center;
+}
+
+.aboutus .container_all .rigth .discover a {
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 3px;
 }

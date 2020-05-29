@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.services {
+    width: 100%;
+    height: auto;
+    background-image: url(/img/Services/service2.jpg);
+    background-color: rgb(60, 60, 60);
+    /*background-size: 100% ;*/
+    background-blend-mode: soft-light;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*object-fit: cover;*/
+}
+
+.services .container_all {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.services .container_all .text_services {
+    width: 100%;
+    height: auto;
+}
+
+.services .container_all .text_services h2 {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 30px;
+    letter-spacing: 3px;
+    font-family: serif;
+    line-height: 25px;
+}
+
+.services .container_all .text_services p {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #c2c2c2;
+    font-family: serif;
+    letter-spacing: 1.5px;
+    font-style: normal;
+    line-height: 25px;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+
+.services .container_all .card {
+    width: 45%;
+    height: 150px;
+    /*border: 1px solid #fff;*/
+    padding: 5px 10px;
+    overflow: hidden;
+    margin: 10px 5px;
+}
+
+.services .container_all .card h2 {
+    font-family: serif;
+    text-align: center;
+    color: #c2c2c2;
+    font-size: 44px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.services .container_all .card .line {
+    width: 2px;
+    height: 20px;
+    border: 1px solid #c2c2c2;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+.services .container_all .card h3 {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 3px;
+    color: #fff;
+    font-family: serif;
+    letter-spacing: 1.5px;
+    font-style: oblique;
+    line-height: 25px;
+    font-size: 16px;
+    text-transform: capitalize;
+}
