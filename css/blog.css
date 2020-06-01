@@ -24,7 +24,7 @@
 
 .blog .container_blog .img_firma {
     width: 100%;
-    
+    height: auto;
 }
 
 .blog .container_blog .img_firma img {
