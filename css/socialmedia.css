@@ -50,3 +50,18 @@
     font-weight: 500;
 }
 
+@media screen and (min-width: 768px) {
+
+    .socialmedia .container_socialmedia .imgs img {
+        width: 5%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+
+    .socialmedia .container_socialmedia .imgs img {
+        width: 3%;
+    }
+    
+}
+

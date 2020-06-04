@@ -97,3 +97,114 @@
     text-decoration: none;
     letter-spacing: 3px;
 }
+
+@media screen and (max-width: 768px) {
+
+    .aboutus .container_all .lefth .textaboutus {
+
+        padding: 70px 50px;
+    }
+
+    .aboutus .container_all .rigth {
+        padding-top: 40px;
+    }
+
+    .aboutus .container_all .rigth .discover {
+        width: 40%;
+    }
+
+    .aboutus .container_all .lefth .imgaboutus {
+        width: 90%;
+        /*margin-left: 80px;*/
+        
+    }
+}
+
+@media screen and (min-width: 1000px) {
+
+    .aboutus {
+        margin-top: 60px;
+    }
+
+    .aboutus .container_all .lefth .firma {
+        width: 40%;
+        display: block;
+        position: absolute;
+        left: 45px;
+    }
+
+    .aboutus .container_all .lefth {
+        width: 60%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .aboutus .container_all .lefth .textaboutus {
+        width: 60%;
+        z-index: 10;
+        margin-right: 40px;
+        padding: 20px 70px;
+    }
+
+    .aboutus .container_all .lefth .imgaboutus {
+        width: 80%;
+        margin-left: 80px;
+        
+    }
+
+    .aboutus .container_all .rigth {
+        width: 38%;
+    }
+
+    .aboutus .container_all .rigth .imgrigth {
+        width: 80%;
+        height: 55%;
+        display: block;
+    }
+
+    .aboutus .container_all .rigth .imgrigth img {
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .aboutus .container_all .rigth .discover {
+        width: 90%;
+       margin-left: -60px;
+       margin-top: -35px;
+    }
+}
+
+
+@media screen and (max-width: 1440px) {
+
+    .aboutus .container_all .lefth .textaboutus {
+        width: 50%;
+        height: 600px;
+    }
+
+    .aboutus .container_all .lefth .textaboutus h2 {
+        padding-top: 20px;
+    }
+
+    .aboutus .container_all .lefth .textaboutus p {
+        line-height: 35px;
+    }
+
+    .aboutus .container_all .rigth .discover {
+        width: 60%;
+        margin-top: 120px;
+    }
+
+    .aboutus .container_all .lefth .imgaboutus {
+        width: 70%;
+        margin-left: 220px;
+    }
+
+    .aboutus .container_all .lefth .imgaboutus img {
+        width: 100%;
+    }
+
+    .aboutus .container_all .lefth .firma {
+        left: 18%;
+    }
+}

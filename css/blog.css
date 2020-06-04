@@ -101,3 +101,39 @@
     text-align: center;
     text-decoration: none;
 }
+
+@media screen and (min-width: 768px) {
+
+    .blog .container_blog .cardblog {
+        width: 48%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+
+    .blog .container_blog {
+        position: relative;
+    }
+
+    .blog .container_blog .img_firma {
+        width: 60%;
+        position: absolute;
+        top: -20px;
+        left: 45%;
+    }
+
+    .blog .container_blog .cardblog {
+        width: 25%;
+        margin-top: 12%
+    }
+}
+
+@media screen and (min-width: 1440px) {
+
+    .blog .container_blog .img_firma {
+        width: 40%;
+        left: 58%;
+    }
+}
+
+

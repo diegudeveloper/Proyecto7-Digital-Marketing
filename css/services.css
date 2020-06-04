@@ -100,3 +100,40 @@
     font-size: 16px;
     text-transform: capitalize;
 }
+
+@media screen and (min-width: 768px) {
+
+    .services .container_all .card {
+        height: 250px;
+    }
+
+    .services .container_all .card h3 {
+        width: 40%;
+    }
+
+    .services .container_all .card h2 {
+        padding-top: 40px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+
+    .services .container_all {
+        flex-wrap: wrap;
+        height: 550px;
+    }
+
+    .services .container_all .text_services {
+        padding-top: 40px;
+    }
+
+    .services .container_all .card {
+        width: 22%;
+        
+    }
+}
+
+@media screen and (max-width: 1440px) {
+
+    
+}

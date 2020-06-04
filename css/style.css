@@ -115,3 +115,58 @@ header .container  .container_all .logo {
 
 }
 
+/*****media queri*****/
+
+@media screen and (min-width: 768px) {
+
+    header .container  .container_all .logo_container {
+        width: 50%;
+        height: 50%;
+        margin-left: 25%;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+
+    header .container  .container_all .menu {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        transform: translateX(0);
+        background-color: transparent;
+    }
+
+    header .container .container_all .menu ul {
+        display: flex; 
+        height: auto;
+   }
+
+    header .container .container_all .menu ul li {
+        width: 60%;
+        line-height: 0;
+        background-color: transparent;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    header .container .container_all .menu ul li a {
+        color: #c2c2c2;
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+
+    header .container .container_all .icon-menu-outline {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+
+    header .container .container_all .logo_container {
+        width: 30%;
+        margin-left: 33%;
+    }
+}
+
