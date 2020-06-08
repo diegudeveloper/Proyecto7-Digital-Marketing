@@ -110,7 +110,8 @@ header .container  .container_all .logo_container {
 
 header .container  .container_all .logo {
     width: 100%;
-    min-width: 100%;
+    
+    /*min-width: 100%;*/
     height: auto;
 
 }
@@ -121,6 +122,7 @@ header .container  .container_all .logo {
 
     header .container  .container_all .logo_container {
         width: 50%;
+        max-width: 80%;
         height: 50%;
         margin-left: 25%;
         margin-top: 40px;
@@ -162,11 +164,11 @@ header .container  .container_all .logo {
     }
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 1440px) {
 
     header .container .container_all .logo_container {
-        width: 30%;
-        margin-left: 33%;
+        /*margin-top: 100px;
+        left: 50px;*/
     }
 }
 

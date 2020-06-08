@@ -98,7 +98,7 @@
     letter-spacing: 3px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
 
     .aboutus .container_all .lefth .textaboutus {
 
@@ -168,16 +168,16 @@
     }
 
     .aboutus .container_all .rigth .discover {
-        width: 90%;
-       margin-left: -60px;
-       margin-top: -35px;
+        width: 60%;
+       margin-left: -120px;
+       margin-top: 205px;
     }
 }
 
 
 @media screen and (max-width: 1440px) {
 
-    .aboutus .container_all .lefth .textaboutus {
+    /*.aboutus .container_all .lefth .textaboutus {
         width: 50%;
         height: 600px;
     }
@@ -188,14 +188,14 @@
 
     .aboutus .container_all .lefth .textaboutus p {
         line-height: 35px;
-    }
+    }*/
 
-    .aboutus .container_all .rigth .discover {
+    /*.aboutus .container_all .rigth .discover {
         width: 60%;
         margin-top: 120px;
-    }
+    }*/
 
-    .aboutus .container_all .lefth .imgaboutus {
+    /*.aboutus .container_all .lefth .imgaboutus {
         width: 70%;
         margin-left: 220px;
     }
@@ -206,5 +206,5 @@
 
     .aboutus .container_all .lefth .firma {
         left: 18%;
-    }
+    }*/
 }
